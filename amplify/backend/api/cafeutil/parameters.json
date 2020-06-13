@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "cafeutil",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcafeutile3ad142d",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
